@@ -42,6 +42,6 @@ public class Escritorio extends Producto implements iModiPrecios{
 
     @Override
     public void aumentoPorInflacion() {
-        this.precio += this.precio*10/100;
+        this.precio += (this.precio*10)/100;
     }
 }

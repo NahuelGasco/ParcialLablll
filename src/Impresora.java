@@ -44,6 +44,6 @@ public class Impresora extends Producto implements iModiPrecios{
 
     @Override
     public void aumentoPorInflacion() {
-        this.precio += this.precio*15/100;
+        this.precio += (this.precio*15)/100;
     }
 }

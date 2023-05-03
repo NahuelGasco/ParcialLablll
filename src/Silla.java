@@ -40,6 +40,6 @@ public class Silla extends Producto implements iModiPrecios{
 
     @Override
     public void aumentoPorInflacion() {
-        this.precio += this.precio*5/100;
+        this.precio += (this.precio*5)/100;
     }
 }

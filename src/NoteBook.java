@@ -42,6 +42,6 @@ public class NoteBook extends Producto implements iModiPrecios{
 
     @Override
     public void aumentoPorInflacion() {
-        this.precio += this.precio*20/100;
+        this.precio += (this.precio*20)/100;
     }
 }
